@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+zyricon.db
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
